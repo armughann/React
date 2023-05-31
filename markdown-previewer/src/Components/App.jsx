@@ -42,7 +42,6 @@ const myFunction = () => {
                 {
                     h1: ({node, ...props}) => <h1 {...props} className="heading-1" />,
                     h2: ({node, ...props}) => <h2 {...props} className="heading-2" />,
-                    inlineCode: ({node, ...props}) => <code {...props} className="inline-code" />,
                     code: ({node, ...props}) => <code {...props} className="code"></code>,
                     img: ({ alt, src }) => <div className="image-container"><img src={src} alt={alt} className="custom-image" /></div>
                 }

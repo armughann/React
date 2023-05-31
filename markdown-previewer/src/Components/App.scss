@@ -26,6 +26,7 @@ div {
     text-align: left;
     justify-content: left;
     border: 1px solid black;
+    overflow: auto;
 }
 
 #header {
@@ -65,11 +66,3 @@ div {
     height: auto;
     display: block;
   }
-// .image-container {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     margin: 0 auto;
-//     width: 10px;
-//     height: 10%;
-// }
