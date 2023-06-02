@@ -1,0 +1,45 @@
+* {
+  font-family: "Russo One";
+  color: black;
+}
+
+#drum-machine {
+  background-color: darkgray;
+  height: 450px;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  margin: 11% 26%;
+  border: orange solid 8px;
+}
+
+#drum-display {
+  background-color: gray;
+  height: 70px;
+  width: 30%;
+  float: right;
+  margin: 20% 10%;
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+}
+
+.drum-pad {
+  background-color: gray;
+  height: 100px;
+  width: 130px;
+  margin: 7%;
+  padding: 35%;
+  box-shadow: black 5px 5px 7px;
+  float: left;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.active {
+  background-color: yellow
+}
+
+.pad {
+  margin-top: 7%;
+}
