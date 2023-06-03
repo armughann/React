@@ -1,0 +1,69 @@
+@import url(https://allfont.net/allfont.css?fonts=digital-7);
+
+.calculator {
+  background-color: black;
+  width: 360px;
+  height: 420px;
+  margin: 17% auto;
+  padding: 0.5% 0.5% 0.7% 0.5%;
+  border: 4px solid #47476b;
+}
+
+#display {
+  width: 99%;
+  height: 70px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  padding: 0 0 1px 0;
+  //padding-right: 10px;
+  //padding-top: 0;
+  //padding-bottom: 1px;
+  font-family: 'Digital-7', sans-serif;
+}
+
+#formula-screen {
+  font-size: 23px;
+  padding-bottom: 2%;
+  color: #ffb700;
+}
+
+.button {
+  width: 90px;
+  height: 70px;
+  border: 1px solid black;
+  background-color: #4d4d4d;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+.button:hover {
+  border-color: white;
+  color: black;
+}
+
+#zero {
+  width: 180px;
+}
+
+#clear {
+  width: 180px;
+  background-color: #ab3939;
+}
+
+#equals {
+  background-color: #004466;
+}
+
+.ops {
+    background-color: #666666;
+}
+
+
+
