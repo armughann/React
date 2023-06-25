@@ -1,12 +1,51 @@
 * {
-  background-color: #2a6b70;
+  background-color: #00565d;
 }
 
 .App {
   text-align: center;
   color: white;
+  font-size: 35px;
   font-weight: 400;
-  margin-top: 13%;
+  margin-top: 10%;
   font-family: serif;
-  font-size: 25px;
+}
+
+#title {
+  font-size: 100px;
+  margin-bottom: 3%;
+}
+
+.break {
+  margin-left: 25%;
+}
+
+#break-length, #session-length, #reset, #start_stop {
+  display: inline-block;
+  padding: 0 3% 0 3%;
+}
+
+.timer {
+  border: 10px solid #00363b;
+  border-radius: 30px;
+}
+
+#timer-label {
+  font-size: 50px;
+  padding-top: 5%;
+}
+
+#time-left {
+  font-size: 100px;
+  margin-top: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+#start_stop, #reset {
+  padding: 0 0 0 0;
 }
